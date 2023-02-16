@@ -43,7 +43,13 @@ sap.ui.define([
 		EH_2Obj : function ()
 		{
 			this.getOwnerComponent().getRouter().navTo("object", {objectId:"1001"}, true);
+		},
+		
+		EH_2V3  : function()
+		{
+			this.getOwnerComponent().getRouter().navTo("view3", {}, false);
 		}
+		
 	});
 
 });

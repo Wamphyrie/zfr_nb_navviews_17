@@ -13,6 +13,9 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<form:SimpleForm  layout = "ResponsiveGridLayout"  >
 						<Label  text = ""  />
 						<Button  text = "Go to Object View" width = "250px"  type = "Emphasized"  press = "EH_2Obj"  />
+						
+						<Label  text = ""  />
+						<Button  text = "Go to View 3"  type = "Emphasized"  width = "250px"  press = "EH_2V3"  />
 					</form:SimpleForm>
 				</content>
 			</Page>

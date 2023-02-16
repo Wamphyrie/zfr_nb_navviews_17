@@ -42,6 +42,16 @@ sap.ui.define([
 		EH_b2o : function()
 		{
 			this.getOwnerComponent().getRouter().navTo("object",{objectId:"1001"}, true);
+		},
+		
+		EH_2V4  : function ()
+		{
+			this.getOwnerComponent().getRouter().navTo("view4", {}, false);
+		},
+		
+		EH_2V3  : function()
+		{
+			this.getOwnerComponent().getRouter().navTo("view3", {}, false);
 		}
 	});
 

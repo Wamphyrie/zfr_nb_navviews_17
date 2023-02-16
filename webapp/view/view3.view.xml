@@ -10,7 +10,13 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 		<pages>
 			<Page title="Welcome to View 3">
 				<content>
-					<Button  text = "Back to Object View"  type = "Emphasized"  width = "250px"  press = "EH_b2o"  />
+					<form:SimpleForm  layout = "ResponsiveGridLayout"  >
+						<Label  text = ""  />
+						<Button  text = "Back to Object View"  type = "Emphasized"  width = "250px"  press = "EH_b2o"  />
+						
+						<Label  text = ""  />
+						<Button  text = "Go to View 4"  type = "Emphasized"  width = "250px"  press = "EH_2V4"  />
+					</form:SimpleForm>
 				</content>
 			</Page>
 		</pages>
