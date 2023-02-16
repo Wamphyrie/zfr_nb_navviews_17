@@ -1,0 +1,18 @@
+<mvc:View xmlns:core="sap.ui.core"
+xmlns:mvc="sap.ui.core.mvc"
+xmlns="sap.m"
+xmlns:layout="sap.ui.layout"
+xmlns:form="sap.ui.layout.form"
+xmlns:unified="sap.ui.unified"
+controllerName="phoenix.zfr_nb_navviews_17.controller.view3"
+xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Welcome to View 3">
+				<content>
+					<Button  text = "Back to Object View"  type = "Emphasized"  width = "250px"  press = "EH_b2o"  />
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

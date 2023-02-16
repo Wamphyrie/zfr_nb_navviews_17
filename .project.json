@@ -36,6 +36,11 @@
       "templateId": "sap.ui.ui5-template-plugin.1worklist",
       "templateVersion": "1.52.7",
       "dateTimeStamp": "Thu, 16 Feb 2023 20:58:31 GMT"
+    },
+    {
+      "templateId": "ui5template.basicSAPUI5ApplicationComponent",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Thu, 16 Feb 2023 21:01:24 GMT"
     }
   ],
   "codeCheckingTriggers": {

@@ -1,0 +1,21 @@
+<mvc:View xmlns:core="sap.ui.core" 
+xmlns:mvc="sap.ui.core.mvc"
+xmlns="sap.m"
+xmlns:layout="sap.ui.layout"
+xmlns:form="sap.ui.layout.form"
+xmlns:unified="sap.ui.unified"
+controllerName="phoenix.zfr_nb_navviews_17.controller.view4"
+xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="Welcome to View4">
+				<content>
+					<form:SimpleForm  layout = "ResponsiveGridLayout"  >
+						<Label  text = ""  />
+						<Button  text = "Go to Object View" width = "250px"  type = "Emphasized"  press = "EH_2Obj"  />
+					</form:SimpleForm>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

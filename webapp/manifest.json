@@ -92,28 +92,31 @@
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"bypassed": {
-					"target": [
-						"notFound"
-					]
+					"target": ["notFound"]
 				},
 				"async": true
 			},
-			"routes": [
-				{
-					"pattern": "",
-					"name": "worklist",
-					"target": [
-						"worklist"
-					]
-				},
-				{
-					"pattern": "WorkerSet/{objectId}",
-					"name": "object",
-					"target": [
-						"object"
-					]
-				}
-			],
+			"routes": [{
+				"pattern": "",
+				"name": "worklist",
+				"target": ["worklist"]
+			}, {
+				"pattern": "WorkerSet/{objectId}",
+				"name": "object",
+				"target": ["object"]
+			}, {
+				"name": "view3",
+				"pattern": "view3",
+				"titleTarget": "",
+				"greedy": false,
+				"target": ["view3"]
+			}, {
+				"name": "view4",
+				"pattern": "view4",
+				"titleTarget": "",
+				"greedy": false,
+				"target": ["view4"]
+			}],
 			"targets": {
 				"worklist": {
 					"viewName": "Worklist",
@@ -134,6 +137,24 @@
 				"notFound": {
 					"viewName": "NotFound",
 					"viewId": "notFound"
+				},
+				"view3": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "view3",
+					"title": "View 3",
+					"viewId": "view3",
+					"viewLevel": 3
+				},
+				"view4": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearAggregation": true,
+					"viewName": "view4",
+					"title": "View 4",
+					"viewId": "view4",
+					"viewLevel": 4
 				}
 			}
 		}
